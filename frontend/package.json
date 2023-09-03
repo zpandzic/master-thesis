@@ -1,0 +1,50 @@
+{
+  "name": "material-cra-tailwind-ts",
+  "version": "5.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "axios": "^1.4.0",
+    "formik": "^2.4.1",
+    "formik-material-ui": "^4.0.0-alpha.2",
+    "jwt-decode": "^3.1.2",
+    "markdown-to-jsx": "^7.2.0",
+    "postcss": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "web-vitals": "latest"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

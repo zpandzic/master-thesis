@@ -1,0 +1,42 @@
+.paper {
+  position: relative;
+  background-color: grey;
+  color: white;
+  margin-bottom: 4rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  position: relative;
+  padding: 3rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.addButton {
+  margin-top: 1rem;
+}
